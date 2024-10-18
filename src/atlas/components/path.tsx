@@ -1,12 +1,6 @@
 import * as React from "react";
 import { AtlasContext } from "../contexts/atlas-context";
-export type PathProps = {
-  d?: string;
-  id?: string;
-  name?: string;
-  title?: string;
-  content?: React.ReactNode;
-};
+import { PathProps } from "../types/path-types";
 
 export const Path = (props: PathProps) => {
   const { atlasService } = React.useContext(AtlasContext);

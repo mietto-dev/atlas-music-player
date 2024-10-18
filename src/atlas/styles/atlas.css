@@ -1,0 +1,30 @@
+svg path {
+  fill: var(--bg-color);
+  stroke: #60cd59;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+svg path:hover {
+  fill: rgba(255, 255, 255, 0.05);
+  transition: 0.6s;
+  stroke-width: 3px;
+}
+
+svg rect {
+  stroke-width: 0.5;
+  stroke: white;
+}
+
+.grid-bg {
+  height: auto;
+  padding: 20px 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(203, 213, 225, 0.02) 0.3px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(203, 213, 225, 0.02) 0.3px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+  background-position: left;
+}

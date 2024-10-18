@@ -1,7 +1,5 @@
 import React from "react";
-import "./tooltip.css";
-import { Path, PathProps } from "./path";
-import { AtlasContext } from "../contexts/atlas-context";
+import "../styles/tooltip.css";
 
 export type TooltipProps = {
   coords?: DOMRect;

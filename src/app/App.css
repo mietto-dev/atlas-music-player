@@ -1,3 +1,8 @@
+:root {
+  --bg-color: #121212;
+  --bg-color-ui: #181605;
+}
+
 #root {
   margin: 0;
   padding: 0;
@@ -9,7 +14,6 @@
   font-size: 12px;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,33 +21,15 @@
 }
 
 body {
-  background-color: #000000;
+  margin: 0;
+  background-color: var(--bg-color);
 }
 
 main {
   margin: auto;
-  padding: 1rem;
+  padding: 0;
   width: 100%;
-  max-width: calc(100% - 2rem);
   color: white;
   font-size: 20px;
   line-height: 1.6;
-}
-
-svg path {
-  fill: transparent;
-  stroke: #60cd59;
-  stroke-width: 1px;
-  cursor: pointer;
-}
-
-svg path:hover {
-  fill: rgba(255, 255, 255, 0.05);
-  transition: 0.6s;
-  stroke-width: 3px;
-}
-
-svg rect {
-  stroke-width: 0.5;
-  stroke: white;
 }
