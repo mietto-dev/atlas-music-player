@@ -1,14 +1,16 @@
 import "./App.css";
 import { AtlasProvider } from "../atlas/contexts/atlas-context";
 import Atlas from "../atlas";
+import { Player } from "../player/components/player";
+import { Navbar } from "../nav/components/navbar";
 
 function App() {
   return (
     <AtlasProvider>
       <main>
-        <section>
-          <Atlas />
-        </section>
+        <Navbar />
+        <Atlas />
+        <Player />
       </main>
       <div
         id="overlay"

@@ -4,7 +4,7 @@ import countryElements from "../constants/country-elements";
 
 export const Atlas = () => {
   return (
-    <div className="grid-bg">
+    <section className="grid-bg">
       <svg
         baseProfile="tiny"
         strokeLinecap="round"
@@ -33,6 +33,6 @@ export const Atlas = () => {
           );
         })}
       </svg>
-    </div>
+    </section>
   );
 };

@@ -1,14 +1,14 @@
 svg path {
   fill: var(--bg-color);
   stroke: #60cd59;
-  stroke-width: 1px;
+  stroke-width: 2px;
   cursor: pointer;
 }
 
 svg path:hover {
   fill: rgba(255, 255, 255, 0.05);
   transition: 0.6s;
-  stroke-width: 3px;
+  stroke-width: 4px;
 }
 
 svg rect {
@@ -16,8 +16,12 @@ svg rect {
   stroke: white;
 }
 
+section.grid-bg {
+  display: flex;
+}
+
 .grid-bg {
-  height: auto;
+  height: 100%;
   padding: 20px 0;
   background-image: linear-gradient(
       to right,

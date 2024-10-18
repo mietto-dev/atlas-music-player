@@ -1,0 +1,11 @@
+.navbar {
+  background-color: var(--bg-color-ui);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; */
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+}
